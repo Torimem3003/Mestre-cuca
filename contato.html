@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <link rel="stylesheet" href="contato.css">
+    <link rel="icon" href="logochef.ico" type="image/gif" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo"></div>
+        <a href="index.html" class="logo">
+            <img src="img/logo3x.png" alt="">
+        </a>
+
+        <nav class="menu">
+            <a href="index.html">Inicio</a>
+            <a href="blog.html">Blog</a>
+            <a href="receitas.html">Receitas</a>
+            <a href="index.html#avaliações">Avaliações</a>
+            <a href="contato.html#avaliações">Contato</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </header>
+
+    <section class="formulario">
+        <h1>Fale Conosco</h1>
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <label>Nome</label>
+            <input type="text" nome="Nome" placeholder="Nome" required>
+            <label>Sobrenome</label>
+            <input type="text" nome="Sobrenome" placeholder="Sobrenome" required>
+            <label>E-mail</label>
+            <input type="email" nome="e-mail" placeholder="E-mail" required>
+            <label>Assunto</label>
+            <input type="text" nome="assunto" placeholder="Digite o assunto:" required>
+            <br>
+            <label>Mensagem</label>
+            <div>
+                <textarea name="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea required>
+            </div>
+            <div>
+    <button type="submit">Enviar</button>
+            </div>
+
+    <input type="hidden" name="accessKey" value="2321d8ad-6a57-417c-98de-2cd967cf80e8">
+</form>
+</section>
+
+<footer class="rodape">
+    <div class="redes">
+        <a href="https://www.facebook.com/profile.php?id=100092449090076" class="fab fa-facebook-f"></a>
+        <a href="https://twitter.com/Mestre__Cuca?s=20" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/cucareceitas23/" class="fab fa-instagram"></a>
+    </div>
+    <div class="links">
+        <a href="index.html">Inicio</a>
+        <a href="blog.html">Blog</a>
+        <a href="receitas.html">Receitas</a>
+        <a href="index.html#avaliações">Avaliações</a>
+        <a href="contato.html">Contato</a>
+    </div>
+    <div class="info">
+        <h3>Mestre Cuca | CNPJ 71.332.350/0001-01 | Av. Brigadeiro Faria Lima, 4509 | 7º andar | Itaim, São Paulo</h3>
+    </div>
+</footer>
+    <script src="site.js">
+    </script>
+</body>
+</html>
